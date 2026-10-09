@@ -18,7 +18,7 @@ O projeto representa a aplicação de conhecimentos de desenvolvimento web na co
 - JavaScript
 - Vercel (hospedagem e publicação)*
   
-## Acesso ao projeto
+## Acesso ao projeto:
 
 [Visitar o Doa Web](https://doa-web-bice.vercel.app/index.html)
 
