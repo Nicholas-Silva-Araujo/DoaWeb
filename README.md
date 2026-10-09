@@ -16,7 +16,7 @@ O projeto representa a aplicação de conhecimentos de desenvolvimento web na co
 - HTML5
 - CSS3
 - JavaScript
-- Vercel (hospedagem e publicação)*
+- Vercel (hospedagem e publicação)
   
 ## Acesso ao projeto:
 
