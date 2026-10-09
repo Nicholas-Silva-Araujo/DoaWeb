@@ -1,297 +1,71 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Raízes do Bem — ONG de Transformação Social</title>
-  <meta name="description" content="Ajude a transformar vidas através de projetos sociais de educação, saúde e habitação." />
-  <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conectando doadores a projetos sociais.">
+    <title>Doa Web — Raízes do Bem</title>
 </head>
 <body>
+    <header>
+        <h1>Raízes do Bem</h1>
+        <p>Conectando pessoas a projetos sociais.</p>
 
-<!-- ============ NAVBAR ============ -->
-<nav class="navbar" id="navbar">
-  <div class="container">
-    <a href="index.html" class="nav-logo">
-      <div class="nav-logo-icon">🌱</div>
-      Raízes do Bem
-    </a>
-    <div class="nav-links">
-      <a href="index.html" class="active">Início</a>
-      <a href="projetos.html">Projetos</a>
-      <a href="doacao.html">Doe Agora</a>
-      <a href="contato.html">Contato</a>
-    </div>
-    <div class="nav-actions" id="nav-actions">
-      <a href="auth.html" class="btn btn-outline" style="padding:8px 18px;font-size:14px;">Entrar</a>
-      <a href="doacao.html" class="btn btn-primary" style="padding:8px 18px;font-size:14px;">💚 Doar</a>
-    </div>
-    <div class="hamburger" id="hamburger">
-      <span></span><span></span><span></span>
-    </div>
-  </div>
-</nav>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#sobre">Sobre nós</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
 
-<!-- Mobile Menu -->
-<div class="mobile-menu" id="mobile-menu">
-  <button class="mobile-menu-close" id="mobile-menu-close">✕</button>
-  <a href="index.html">Início</a>
-  <a href="projetos.html">Projetos</a>
-  <a href="doacao.html">Doe Agora</a>
-  <a href="contato.html">Contato</a>
-  <a href="auth.html" class="btn btn-primary">Entrar / Cadastrar</a>
-</div>
+    <main>
+        <section id="inicio">
+            <h2>Transforme vidas com sua doação</h2>
+            <p>
+                Conheça iniciativas sociais e ajude a construir
+                um futuro melhor para as comunidades.
+            </p>
+            <a href="#projetos">Conhecer projetos</a>
+        </section>
 
-<!-- ============ HERO ============ -->
-<section class="hero">
-  <div class="hero-bg-pattern"></div>
-  <div class="hero-orb hero-orb-1"></div>
-  <div class="hero-orb hero-orb-2"></div>
+        <section id="projetos">
+            <h2>Nossos projetos</h2>
 
-  <div class="container">
-    <div class="hero-content">
-      <div class="hero-tag">🌱 ONG Raízes do Bem — Desde 2010</div>
-      <h1 class="hero-title">
-        Ajude a <em>transformar</em><br>
-        vidas com sua<br>
-        doação
-      </h1>
-      <p class="hero-subtitle">
-        Conectamos pessoas generosas a projetos sociais reais que impactam comunidades vulneráveis em todo o Brasil.
-      </p>
-      <div class="hero-actions">
-        <a href="doacao.html" class="btn btn-terracota btn-lg">💚 Fazer uma doação</a>
-        <a href="projetos.html" class="btn btn-outline" style="color:white;border-color:rgba(255,255,255,0.5);">Ver projetos</a>
-      </div>
-      <div class="hero-stats">
-        <div>
-          <div class="hero-stat-number">
-            <span data-count="2847" data-suffix="+">0</span>
-          </div>
-          <div class="hero-stat-label">Doadores ativos</div>
-        </div>
-        <div>
-          <div class="hero-stat-number">
-            <span data-count="48">0</span>
-          </div>
-          <div class="hero-stat-label">Projetos realizados</div>
-        </div>
-        <div>
-          <div class="hero-stat-number">
-            <span data-prefix="R$" data-count="1.2" data-suffix="M">0</span>
-          </div>
-          <div class="hero-stat-label">Arrecadados</div>
-        </div>
-      </div>
-    </div>
+            <article>
+                <h3>Educação para todos</h3>
+                <p>Apoio a iniciativas educacionais.</p>
+            </article>
 
-    <div class="hero-visual">
-      <div class="hero-card">
-        <div class="hero-card-title">🔥 Em alta agora</div>
+            <article>
+                <h3>Água limpa</h3>
+                <p>Iniciativas para ampliar o acesso à água potável.</p>
+            </article>
 
-        <div class="hero-card-project">
-          <div class="hero-card-project-icon">📚</div>
-          <div>
-            <div class="hero-card-project-name">Escola do Futuro</div>
-            <div class="hero-card-project-amount">Meta: R$ 80.000</div>
-            <div class="hero-card-progress-bar">
-              <div class="hero-card-progress-fill" style="width:78%"></div>
-            </div>
-          </div>
-        </div>
+            <article>
+                <h3>Lar solidário</h3>
+                <p>Apoio a projetos de habitação social.</p>
+            </article>
+        </section>
 
-        <div class="hero-card-project">
-          <div class="hero-card-project-icon">💧</div>
-          <div>
-            <div class="hero-card-project-name">Água Limpa para Todos</div>
-            <div class="hero-card-project-amount">Meta: R$ 120.000</div>
-            <div class="hero-card-progress-bar">
-              <div class="hero-card-progress-fill" style="width:62%"></div>
-            </div>
-          </div>
-        </div>
+        <section id="sobre">
+            <h2>Sobre o Doa Web</h2>
+            <p>
+                Uma plataforma com a proposta de aproximar
+                pessoas dispostas a ajudar de iniciativas sociais.
+            </p>
+        </section>
 
-        <div class="hero-card-project">
-          <div class="hero-card-project-icon">🏡</div>
-          <div>
-            <div class="hero-card-project-name">Lar Solidário</div>
-            <div class="hero-card-project-amount">Meta: R$ 95.000</div>
-            <div class="hero-card-progress-bar">
-              <div class="hero-card-progress-fill" style="width:45%"></div>
-            </div>
-          </div>
-        </div>
+        <section id="contato">
+            <h2>Entre em contato</h2>
+            <p>Saiba mais sobre nossas iniciativas sociais.</p>
+            <a href="mailto:contato@exemplo.com">Enviar e-mail</a>
+        </section>
+    </main>
 
-        <div class="hero-card-footer">
-          <span>Total arrecadado hoje</span>
-          <div class="hero-card-total">R$ 4.320</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ SOBRE ============ -->
-<section class="sobre section-padding">
-  <div class="container">
-    <div class="sobre-image-wrapper fade-in">
-      <div class="sobre-image-main">🌍</div>
-      <div class="sobre-image-badge">
-        <div class="sobre-image-badge-number">14+</div>
-        <div class="sobre-image-badge-text">Anos de impacto</div>
-      </div>
-    </div>
-
-    <div class="sobre-content fade-in">
-      <div class="tag">Quem Somos</div>
-      <h2>Uma ONG comprometida com a transformação social</h2>
-      <p>A <strong>Raízes do Bem</strong> nasceu da crença de que cada pessoa merece dignidade, oportunidade e esperança. Desde 2010, trabalhamos em parceria com comunidades vulneráveis para construir um futuro mais justo e igualitário.</p>
-      <p>Nossa atuação abrange educação, saúde, habitação e geração de renda, sempre com foco no desenvolvimento humano integral e sustentável. Cada projeto é concebido com e para as comunidades que atendemos.</p>
-
-      <div class="sobre-valores">
-        <div class="sobre-valor">
-          <div class="sobre-valor-icon">❤️</div>
-          <span class="sobre-valor-text">Transparência total</span>
-        </div>
-        <div class="sobre-valor">
-          <div class="sobre-valor-icon">🤝</div>
-          <span class="sobre-valor-text">Parcerias duradouras</span>
-        </div>
-        <div class="sobre-valor">
-          <div class="sobre-valor-icon">📊</div>
-          <span class="sobre-valor-text">Impacto mensurável</span>
-        </div>
-        <div class="sobre-valor">
-          <div class="sobre-valor-icon">🌱</div>
-          <span class="sobre-valor-text">Desenvolvimento sustentável</span>
-        </div>
-      </div>
-
-      <div style="margin-top:32px;">
-        <a href="projetos.html" class="btn btn-primary">Conheça nossos projetos</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ PROJETOS EM DESTAQUE ============ -->
-<section class="projetos-destaque section-padding">
-  <div class="container">
-    <div class="section-header text-center fade-in">
-      <div class="tag">Projetos</div>
-      <h2>Iniciativas que transformam</h2>
-      <p>Escolha um projeto para apoiar e acompanhe o impacto da sua doação em tempo real.</p>
-    </div>
-
-    <div class="projetos-grid" id="projetos-destaque-grid">
-      <!-- Carregado via JS -->
-    </div>
-
-    <div class="projetos-cta fade-in">
-      <a href="projetos.html" class="btn btn-outline btn-lg">Ver todos os projetos →</a>
-    </div>
-  </div>
-</section>
-
-<!-- ============ IMPACTO ============ -->
-<section class="impacto section-padding">
-  <div class="container text-center">
-    <div class="tag" style="background:rgba(255,255,255,0.15);color:white;">Nosso Impacto</div>
-    <h2>Números que fazem a diferença</h2>
-    <p>Cada centavo doado vai direto para as comunidades que precisam.</p>
-
-    <div class="impacto-grid" style="margin-top:64px;">
-      <div class="impacto-item fade-in">
-        <div class="impacto-icon">👨‍👩‍👧‍👦</div>
-        <span class="impacto-number" data-count="12500" data-suffix="+">0</span>
-        <span class="impacto-label">Vidas impactadas diretamente</span>
-      </div>
-      <div class="impacto-item fade-in" style="animation-delay:0.1s">
-        <div class="impacto-icon">🏫</div>
-        <span class="impacto-number" data-count="48">0</span>
-        <span class="impacto-label">Projetos concluídos</span>
-      </div>
-      <div class="impacto-item fade-in" style="animation-delay:0.2s">
-        <div class="impacto-icon">🗺️</div>
-        <span class="impacto-number" data-count="87">0</span>
-        <span class="impacto-label">Comunidades atendidas</span>
-      </div>
-      <div class="impacto-item fade-in" style="animation-delay:0.3s">
-        <div class="impacto-icon">🤝</div>
-        <span class="impacto-number" data-count="2847" data-suffix="+">0</span>
-        <span class="impacto-label">Doadores parceiros</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ CTA BANNER ============ -->
-<section class="cta-banner section-padding">
-  <div class="container fade-in">
-    <div class="tag">Faça parte</div>
-    <h2>Pronto para fazer a diferença?</h2>
-    <p>Sua doação, por menor que seja, transforma vidas reais. Junte-se a milhares de pessoas que já fazem parte dessa corrente do bem.</p>
-    <div class="btn-group">
-      <a href="doacao.html" class="btn btn-primary btn-lg">💚 Fazer minha doação</a>
-      <a href="auth.html?tab=cadastro" class="btn btn-outline btn-lg">Criar uma conta</a>
-    </div>
-  </div>
-</section>
-
-<!-- ============ FOOTER ============ -->
-<footer class="footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="index.html" class="nav-logo">
-          <div class="nav-logo-icon">🌱</div>
-          Raízes do Bem
-        </a>
-        <p>Transformando vidas através de projetos sociais sustentáveis e parcerias com as comunidades.</p>
-        <div class="footer-social">
-          <a href="#" class="footer-social-link">f</a>
-          <a href="#" class="footer-social-link">in</a>
-          <a href="#" class="footer-social-link">ig</a>
-          <a href="#" class="footer-social-link">yt</a>
-        </div>
-      </div>
-      <div class="footer-col">
-        <h4>Navegação</h4>
-        <ul>
-          <li><a href="index.html">Início</a></li>
-          <li><a href="projetos.html">Projetos</a></li>
-          <li><a href="doacao.html">Doe Agora</a></li>
-          <li><a href="contato.html">Contato</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Projetos</h4>
-        <ul>
-          <li><a href="projetos.html">Educação</a></li>
-          <li><a href="projetos.html">Saúde</a></li>
-          <li><a href="projetos.html">Habitação</a></li>
-          <li><a href="projetos.html">Saneamento</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Transparência</h4>
-        <ul>
-          <li><a href="#">Relatório Anual</a></li>
-          <li><a href="#">Prestação de Contas</a></li>
-          <li><a href="#">Política de Privacidade</a></li>
-          <li><a href="#">Termos de Uso</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© 2025 Raízes do Bem. CNPJ: 00.000.000/0001-00 | Todos os direitos reservados.</span>
-      <span>🔒 Doações 100% seguras e transparentes</span>
-    </div>
-  </div>
-</footer>
-
-<div class="toast-container" id="toast-container"></div>
-
-<script src="js/main.js"></script>
+    <footer>
+        <p>&copy; 2026 Doa Web — Projeto de impacto social.</p>
+    </footer>
 </body>
 </html>
